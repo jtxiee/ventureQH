@@ -1,0 +1,109 @@
+/* chat.module.css */
+
+.notification {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.adminDashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.customerList {
+  width: 25%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.customerList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.customerList li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.customerList li:hover {
+  background-color: #f1f1f1;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.chatSection {
+  width: 75%;
+  padding: 10px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.userInfo {
+  margin-bottom: 10px;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.sent {
+  background-color: #e1ffc7;
+  align-self: flex-end;
+}
+
+.received {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
+
+.messageSender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+form {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
